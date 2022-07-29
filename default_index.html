@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD> 
+<link rel="stylesheet"  type="text/css" href="model.css">
+
+<TITLE> NICOLAS B</TITLE>
+<link rel="icon" type="image/x-icon" href="ress/logosigna.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+</HEAD>
+<body onkeydown="document.getElementById('tennis').play()"> 
+    <script src="myscript.js"></script>
+    <div id="accueil">
+        <button id="button-accueil" onclick="accueil()"> BIENVENUE </button>
+    </div>
+    <a href="default_index.html"> <img src="ress/n.png" id="logo">  </a>
+<!-- BAR DE NAVIGATION -->
+        <div id="menu">
+            <a href="p1/default_index.html"     id="a1"> <button id="b1"> LE VOYAGE DE CHIHIRO      </button> </a> 
+            <a href="p2/default_index.html"     id="a2"> <button id="b2"> UNE P"TITE ENTREPRISE     </button> </a> 
+            <a href="p3/default_index.html"     id="a3"> <button id="b3"> MON CV                    </button> </a> 
+            <a href="movie2/default_index.html" id="a4"> <button id="b4"> LE SEIGNEUR DES ANNEAUX   </button> </a> 
+            <a href="pp/default_index.html"     id="a5"> <button id="b5">FINAL FANTASY 7 REMAKE     </button> </a>
+            <a href="ps1/default_index.html"    id="a6"> <button id="b6"> SITE STAGE 1              </button> </a>
+            <a href="ps2/default_index.html"    id="a7"> <button id="b7">SITE STAGE 2               </button> </a>
+            <a href=https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" id="a9"> <button id="b9">       PREPA INFORMATIQUE  </button>  </a>
+            <a href="morpion/default_index.html" id="a10"> <button id="b10"> MORPION </button>  </a>
+        </div>
+
+        <div id="montagevideo">
+            <a id="a8"><button id="b8" onclick="document.getElementById('jedi').play()" > MONTAGE VIDEO </button>  </a> 
+                <div id="montage">
+                    
+                    <a href="ress/MAITEJOJO.mp4"     id="av1" target="_blank" > <button id="bv1" onclick="document.getElementById('welc').play()"> MAITE JOJO                </button> </a>
+                    <a href="ress/matrix.mp4"        id="av2" target="_blank" > <button id="bv2"> MATRIX                    </button> </a>
+                </div>
+            </div>
+        <!-- KAMEHAMEHAAAAAAAAAAAAAAAAAA -->
+            <button id="kame1" onclick="kamehameha ()"> CLIQUER </button>
+            <img src="ress/kamehameha.png" id="kame2" style="display: none;">
+        <!-- KAMEHAMEHAAAAAAAAAAAAAAAAAA-->
+<!-- FIN BAR DE NAVIGATION -->
+<!-- TAB HAUT DE PAGE -->
+    <div class="tab">
+        <button class="tablinks" id="leftabb" onclick="openCity(event, 'psd')"> TRAVAIL PHOTOSHOP</button>
+        <button class="tablinks" onclick="openCity(event, 'vote')"> NOTER LE SITE </button>
+        <button class="tablinks" onclick="openCity(event, 'galerie')"> IMAGE  </button>
+        <button class="tablinks" onclick="openCity(event, 'video')"> VIDEO POLITIQUE ^^ </button>
+        <button class="tablinks" id="rightabb" onclick="openCity(event, 'formulaire')"> FORM </button>
+    </div>
+  
+         <!-- GALLERY PHOTOSHOP-->
+
+             <div id="psd" class="tabcontent">
+    <section id=s1>
+        <h1 id="h1"> TRAVAIL SUR PHOTOSHOP </h1>
+    <div id="psdgal">
+        <button id="bleftpsd" onclick="galpsd1()"> </button>
+    <div id="galpsd">
+
+            <img class="mySlides" src="ress/psd1.jpg" style="width:100%">
+            <img class="mySlides" src="ress/tokyoghoul.jpg" style="width:100%">
+            <img class="mySlides" src="ress/projet1.jpg" style="width:100%">
+            <img class="mySlides" src="ress/fondecrangriffe.jpg" style="width:100%">
+               
+    </div>
+    <button id="brightpsd" onclick="galpsd2()" > </button>
+    </div>
+    </section>
+             </div>
+        <!-- FIN GALLERY PHOTOSHOP-->
+        <!-- 2EME PAGE TABS -->
+    <div id="vote" class="tabcontent">
+    <section id="emoji">
+
+        <p id="para1">  NOTER SE SITE EN CLIQUANT SUR LE BOUTTON CORRESPONDANT </p>
+        <img id="note" src="ress/vote.png"> <br>
+        <button id="bpouce1" onclick='document.getElementById("note").src="ress/poucebleu.png"'> CONTANT</button>
+        <button id="bpouce2"onclick='document.getElementById("note").src="ress/poucerouge.png"'> PAS CONTANT</button>
+    </section>
+    <section>
+        <img src="ress/logosigna.png" id="logosigna">
+    </section>
+    </div>
+
+    <div id="galerie" class="tabcontent">
+            <div id="image9">
+        <div id="grille1"> <img src="ress/dn1.jpg">  </div>
+        <div id="grille2"> <img src="ress/tk2.jpg"> </div>
+        <div id="grille3"> <img src="ress/tk1.jpg"> </div>
+        <div id="grille4"> <img src="ress/tk3.jpg"> </div>
+        <div id="grille5"> <img src="ress/tokyoghoul.jpg"> </div>
+            </div>
+        </div>
+        <!-- FIN 2EME PAGE TABS -->
+    <div id="video" class="tabcontent">
+      <video autoplay loop muted controls id="melanmark">
+          <source src="ress/melanmark.mp4" >
+      </video>
+    </div>
+
+    <div id="formulaire" class="tabcontent">
+        
+        <form id="f1">
+            <fieldset id="field1">
+                <legend> FORMULAIRE MAISON</legend>
+        <label for="name"> NAME</label>
+        <input type="text" id="name" name="name" value="Name"> <br> <br>
+                <fieldset id="field2">
+                    <legend> CODAGE </legend>
+                        <input type="checkbox" id="html" name="fav_language" value="HTML"   class="code1">
+                        <input type="range" id="html" name="fav_language" min="0" max="100" class="code2">
+                        <label for="html" class="code3">HTML</label>
+                        <input type="checkbox" id="css" name="fav_language" value="CSS" class="code4">
+                        <input type="range" id="css" name="fav_language" min="0" max="100" class="code5">
+                        <label for="css" class="code6">CSS</label>
+                        <input type="checkbox" id="javascript" name="fav_language" value="JavaScript" class="code7">
+                        <input type="range" id="javascript" name="fav_language" min="0" max="100" class="code8">
+                        <label for="javascript" class="code9">JavaScript</label>
+                </fieldset> <br> <br>
+        <label for="date"> DATE </label>
+        <input type="date" id="date" name="date"> <br>
+        <label for="temps">TEMPS PASSE</label>
+        <input type="time" id="temps" name="temps"> <br>
+        <label for="couleur"> COULEUR PREFERE sans importance</label>
+        <input type="color" id="couleur" name="couleur" value="#26c4ec"> <br>
+        <input type="submit">
+
+        
+            </fieldset>
+        </form>
+      </div>
+<!-- FIN TAB HAUT DE PAGE -->
+
+        <button id="bbob" onclick="stopvid()"> ^^ </button>
+    <video autoplay muted loop id="bob" style="display: none;">
+        <source src="ress/bob.mp4">
+    </video>
+    
+<!-- AUDIO DE LA PAGE -->
+    <audio src="ress/lightsaber.mp3" id="jedi"></audio>
+    <audio src="ress/Tennis.ogg" id="tennis"></audio>
+    <audio src="ress/welc.ogg" id="welc"> </audio>
+    <audio src="ress/lightsaber.mp3" id="jedi"></audio>
+    <audio src="ress/Sifflement.ogg" id="siffle"></audio>
+    <audio src="ress/kamesound.mp3"   id="kamesound"></audio>
+    <audio src="ress/ost.mp3" id="ost"></audio>
+<!-- FIN AUDIO DE LA PAGE -->
+</body>
+</HTML>

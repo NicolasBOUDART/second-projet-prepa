@@ -1,0 +1,192 @@
+BODY::-webkit-scrollbar{
+    width: 8px;
+}
+BODY::-webkit-scrollbar-track{
+    background-color: #80D0D0;
+}
+BODY::-webkit-scrollbar-thumb{
+    background-color: #E0115F;
+}
+BODY{
+    background-color: black;
+}
+#body1{
+    overflow-x: hidden;
+}
+#menu{
+    display: flex;
+    width: 100%;
+}
+#banner{
+    width: 100%;
+    border-radius: 50%;
+}
+#b{
+    display: flex;
+}
+#b1{
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+#b3{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#a1, #a2, #a3{
+    width: 100%;
+    height: 50px;
+}
+#a1{
+    flex: 1;
+}
+#a2, #a3{
+    flex: 3;
+}
+#b button{
+    width: 100%;
+    border: none;
+    height: 100%;
+    font-size: 100%;
+    background: none;
+    color: #80D0D0;
+}
+#b button:hover{
+    background-color: #80D0D0;
+    color: #E0115F;
+}
+#affiche{
+    width: 35%;
+    margin-top: 2%;
+    left: 0;
+}
+#resume{
+    float: right;
+    width: 40%;
+    height: 200px;
+    margin-top: 2%;
+    background-color: #80D0D0;
+    font-size: 120%;
+    padding: 5%;
+    margin-left: 1%;
+    margin-right: 2%;
+    overflow-y: scroll;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    animation-name: resume;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+#resume::-webkit-scrollbar{
+    width: 8px;
+}
+#resume::-webkit-scrollbar-track{
+    background-color: white;
+}
+#resume::-webkit-scrollbar-thumb{
+    background-color: #80D0D0;
+}
+#n{
+    position: fixed;
+    top: 0;
+    width: 3%;
+}
+#body2{
+    overflow: hidden;
+}
+#video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ba{
+    width: 70%;
+}
+@keyframes resume {
+    from{
+        margin-right: -50%;
+    }
+    to{
+        margin-right: 2%;
+    }
+}
+#ligne1, #ligne2{
+    display: flex;
+    margin: 2%;
+}
+#perso1{
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#p1{
+    width: 100%;
+    position: sticky;
+}
+#boutton{
+    display: flex;
+    width: 100%;
+}
+#boutton button{
+    width: 50%;
+    height: 50px;
+    font-size: 100%;
+    height: 110%;
+    border: none;
+    background: none;
+    color: #80D0D0;
+}
+#boutton button:hover{
+    background-color: #80D0D0;
+    color: #E0115F;
+}
+#perso2{
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#p2{
+    width: 100%;
+    position: sticky;
+}
+#perso3{
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#p3{
+    width: 100%;
+    position: sticky;
+}
+#perso4{
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#p4{
+    width: 100%;
+    position: sticky;
+}
+#perso5{
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#p5{
+    width: 100%;
+    position: sticky;
+}
+#perso6{
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#p6{
+    width: 100%;
+    position: sticky;
+}

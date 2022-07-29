@@ -1,0 +1,209 @@
+#banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkgray;
+
+}
+footer img{
+    width: 3%;
+    height: 3%;
+}
+BODY{
+    background: #FF0921;
+    background-size: cover;
+}
+#menu{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+}
+#menuderoul{
+    width: 100%;
+}
+#active{
+    width: 100%;
+    border: solid 2px black;
+    background-color: royalblue;
+    border-radius: 20px;
+}
+#a1{
+    width: 50%;
+    margin-right: 10%;
+}
+#a2{
+    width: 100%;
+}
+#a3{
+    width: 100%;
+}
+#b1{
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 20px;
+    color: red;
+}
+#b1:hover{
+    background-color: black;
+    color: white;
+}
+#deroulcont{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    width: 30%;
+}
+#menuderoul:focus-within #deroulcont{
+    display: flex;
+    flex-direction: column;
+}
+#pres{
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    text-align: center;
+}
+#pres1{
+    display: flex;
+    width: 100%;
+    font-size: 120%;
+}
+h1{
+    font-size: 300%;
+}
+#velofix{
+    float: left;
+    width: 30%;
+}
+#presentation{
+    width: 60%;
+    margin-left: 5%;
+}
+#liste{
+    position: fixed;
+    width: 200px;
+    right: -160px;
+    top: 30%;
+    background-color: white;
+    transition: linear 2s;
+    z-index: 1;
+}
+#liste:hover{
+    right: 0px;
+}
+#marque{
+    position: absolute;
+    top: 25%;
+    display: flex;
+    width: 50%;
+}
+#objet{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+}
+#article1{
+    display: flex;
+    margin: 3%;
+    background-color: white;
+    border-radius: 20px;
+    height: 100%;
+}
+#imgvelo1{
+    flex: 1;
+}
+#velo1{
+    flex: 5;
+}
+#prixachat{
+    display: flex;
+    width: 100%;
+}
+#prix{
+   width: 80%;
+}
+#bachat{
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    background-color: #FF0921;
+}
+#bachat:hover{
+    background: black;
+    color: white;
+}
+h2{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+#contact{
+    position: absolute;
+    width: 50%;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#contact img{
+    width: 20%;
+}
+#contact1{
+    display: flex;
+    margin: 2%;
+}
+#contact2{
+    color: #FF0921;
+    margin-left: 3%;
+}
+#form{
+    position: absolute;
+    display: inline;
+    top: 35%;
+    right: 6%;
+    width: 50%;
+    background-color: black;
+    color: #FF0921;
+}
+#o{
+    font-size: 130%;
+}
+#message{
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    margin-left: 20%;
+}
+#fname{
+    background-color: white;
+    width: 50%;
+    height: 50px;
+    margin-left: 20%;
+}
+#lname{
+    background-color: white;
+    width: 50%;
+    height: 50px;
+    margin-left: 20%;
+}
+#mail{
+    background-color: white;
+    width: 50%;
+    height: 50px;
+    margin-left: 20%;
+}

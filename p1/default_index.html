@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<HTML> 
+<HEAD> 
+<link rel="stylesheet"  type="text/css" href="model.css">
+<TITLE>MOVIE TIMES </TITLE>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+</HEAD>
+<BODY id="body1"> 
+    <a href="../default_index.html"> <img src="ress/n.png" id="n"> </a>
+    <div id="menu">
+        <img src="ress/banner.png" id="banner">
+    </div>
+    <div id="b">
+        <a href="default_index.html" id="a1">      <button id="b1">    ACCUEIL          </button>      </a>
+        <a href="page1.html" id="a2">              <button id="b2">    BANDE ANNONCE    </button>      </a>
+        <a href="page2.html" id="a3">              <button id="b3">    FICHE TECHNIQUE  </button>      </a>
+        </div>    
+
+        <section id="pres" onclick=" chihi ()">
+
+            <img src="ress/affiche.jpg" id="affiche" >
+
+                <p id="resume" style="display: none;">   Chihiro Ogino (荻野 千尋, Ogino Chihiro?), dix ans, boude à l’arrière de la voiture de ses parents1 ; ces derniers ont décidé de déménager à la campagne, et la petite fille regrette son ancienne école. En cherchant à rejoindre leur nouvelle maison, ils se perdent au bout d’une route tortueuse et arrivent devant un tunnel. Le traversant, malgré la réticence de Chihiro effrayée, ils arrivent dans ce qu’ils pensent être un parc à thèmes abandonné. Sentant une odeur de nourriture, ils rejoignent une échoppe vide regorgeant de victuailles, et les parents de la fillette s’installent ; prévoyant de payer en partant, ils commencent à manger goulûment. Agacée par leur comportement, Chihiro part explorer le village abandonné et se retrouve à l’entrée d’un pont menant à un palais des bains. Là, un jeune garçon l’avertit de partir vite avant le coucher du soleil.
+
+                    Alors que la nuit tombe rapidement, se précipite pour retrouver ses parents, mais découvre avec horreur que ceux-ci se sont transformés en cochons. De plus en plus affolée, la fillette s’enfuit dans les rues où des dizaines d’ombres prennent vie, mais une grande étendue d’eau bloque maintenant le chemin du retour. Un grand bateau lumineux aborde et débarque des centaines de kami et yōkai tandis que Chihiro s’aperçoit qu’elle devient transparente. Elle part se blottir dans un coin où le jeune garçon la retrouve ; il la force à avaler un peu de nourriture du monde des esprits pour lui éviter de disparaître et la cache de la vue du Yu-bird, un rapace à tête de sorcière, qui patrouille. Il l’emmène ensuite traverser le pont qui mène au palais, tentant de la cacher des esprits et du personnel. Se présentant comme Haku, il semble connaître Chihiro de longue date, et lui conseille de descendre trouver Kamaji, le chauffagiste, pour obtenir du travail. Ainsi, la sorcière tenancière des lieux, Yubaba, ne pourra plus la transformer en animal.
+               
+                     Après avoir descendu plusieurs escaliers vertigineux, Chihiro se retrouve dans la salle des chaudières où travaille Kamaji, un vieil homme à six bras extensibles, accompagné de noiraudes qui transportent le charbon. Elle demande au chauffagiste s’il peut lui donner du travail, mais ce dernier, qui a la charge de préparer les sels de bain et d’envoyer l’eau chaude, lui dit ne pas avoir besoin d’aide supplémentaire. La présentant comme sa petite-fille, il la confie à une jeune femme qui lui apporte à manger pour qu’elle la présente à Yubaba. Après avoir pris plusieurs ascenseurs, Chihiro se retrouve seule au dernier étage du palais, sa compagne ayant dû rester plus bas pour reprendre son travail. Une série de portes et de couloirs la mène au bureau où la sorcière l’attend. Yubaba interroge la fillette pour savoir qui l’a aidée à parvenir jusqu’ici, mais cette dernière se borne à lui demander du travail. Alors que la sorcière tente de l’intimider pour la faire renoncer, Bô, son bébé géant, se réveille et fait du raffut, ce qui donne à Chihiro l’occasion de se faire promettre d’être embauchée. Une fois le contrat signé, Yubaba vole les trois kanjis de son nom et la renomme Sen (千?) ; elle appelle Haku, qui s’avère être son apprenti, et lui demande de la superviser. Ce dernier, qui apparaît maintenant froid et autoritaire — pour ne pas éveiller le moindre soupçon chez Yubaba — confie la petite fille comme assistante à Lin, la jeune femme qui l’a accompagnée voir la sorcière. Lin accepte de mauvaise grâce de la prendre sous son aile, mais s’avère rapidement amicale envers la fillette, l’amenant au dortoir et lui fournissant ses nouveaux vêtements de travail.
+                   </p>
+
+        </section>
+    
+           
+
+        <!-- SCRIPT RESUME + SOUND-->
+        <script>
+            function chihi () {
+                document.getElementById('ost').play();
+                var y = document.getElementById("resume");
+            if (y.style.display === "none") {
+              y.style.display = "block";
+            } else {
+              y.style.display = "none";
+            }
+            }
+        </script>
+         <!-- SCRIPT RESUME + SOUND-->
+        <audio src="ress/ost.mp3" id="ost"></audio>
+</BODY>
+</HTML>
